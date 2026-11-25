@@ -1,0 +1,18 @@
+node_modules/
+.env
+config.json
+# Runtime data (created by the bot)
+drinks.json
+warnings.json
+settings.json
+igns.json
+lore.json
+tod.json
+parties.json
+giveaways.json
+rsvp.json
+gameparties.json
+activity.json
+recruits.json
+*.tmp
+*.log

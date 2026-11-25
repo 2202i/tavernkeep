@@ -1,0 +1,10 @@
+{
+  "name": "tavernkeep-bot",
+  "version": "1.0.0",
+  "description": "A fantasy-tavern Discord bot for gaming guilds: drunk meter, dungeon party-up cards, moderation tools, lore, giveaways and more.",
+  "main": "tavernkeep-bot.js",
+  "scripts": { "start": "node tavernkeep-bot.js", "check": "node --check tavernkeep-bot.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "discord.js": "^14.14.1", "dotenv": "^16.4.5" },
+  "license": "MIT"
+}

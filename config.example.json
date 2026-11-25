@@ -1,0 +1,45 @@
+{
+  "_readme": "Copy this file to config.json and replace every 0 / placeholder with your own Discord IDs (enable Developer Mode -> right-click -> Copy ID). config.json is gitignored.",
+  "channels": {
+    "tavern": "000000000000000001",
+    "bartop": "000000000000000002",
+    "adminLog": "000000000000000003",
+    "warnShow": "000000000000000004",
+    "modPrivate": "000000000000000005",
+    "giveaways": "000000000000000006",
+    "dungeonHub": "000000000000000007",
+    "dungeonGeneralChat": "000000000000000008",
+    "luresThread": "000000000000000009"
+  },
+  "roles": {
+    "council": "000000000000000101",
+    "highCouncil": "000000000000000102",
+    "knight": "000000000000000103",
+    "emissary": "000000000000000104",
+    "guildLeader": "000000000000000105",
+    "giveawayPing": "000000000000000106",
+    "guest": "000000000000000107",
+    "rookie": "000000000000000108",
+    "novice": "000000000000000109",
+    "seasoned": "000000000000000110",
+    "expert": "000000000000000111",
+    "protected": "000000000000000112",
+    "gameNight": "000000000000000113"
+  },
+  "users": {
+    "guildMaster": "000000000000000201",
+    "viceGuildMaster": "000000000000000202",
+    "botSelf": "000000000000000203"
+  },
+  "dungeons": [
+    { "roleId": "000000000000000301", "name": "Crypt of Echoes", "threadId": "000000000000000401" },
+    { "roleId": "000000000000000302", "name": "Spider Den", "threadId": "000000000000000402" },
+    { "roleId": "000000000000000303", "name": "Grand Raid", "threadId": "000000000000000403", "maxSize": 12 },
+    { "roleId": "000000000000000304", "name": "Open-World Farming", "threadId": "000000000000000404", "maxSize": 20 }
+  ],
+  "games": [
+    { "roleId": "000000000000000501", "name": "Minecraft", "emoji": "⛏️" },
+    { "roleId": "000000000000000502", "name": "Terraria", "emoji": "🌳" },
+    { "roleId": "000000000000000113", "name": "Game Night", "emoji": "🎲" }
+  ]
+}
